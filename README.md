@@ -14,7 +14,7 @@ This script uses WP-CLI to check if any new plugins have been added to a WordPre
 
 ```bash
 bash plugin-install-check.sh
-
+```
 ## Output
 
 The script will output a warning message for each plugin that was installed within the last 48 hours. If no new plugins were installed within the time frame, the script will output a success message.
